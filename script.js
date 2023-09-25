@@ -1,6 +1,4 @@
 
-    allData=[];
-    data=[];
    let countryData= async () =>{
      const res = await fetch('https://restcountries.com/v3.1/all')
        data = await res.json()
